@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.sh.mycanvas.R;
+import com.sh.mycanvas.view.BitmapView;
 import com.sh.mycanvas.view.CircleView;
 
 public class OneActivity extends AppCompatActivity {
@@ -13,7 +14,6 @@ public class OneActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_one);
 		CircleView circleView = (CircleView)findViewById(R.id.circle);
-		circleView.startAnimation();
-
+		BitmapView bitmapView = (BitmapView)findViewById(R.id.bitmapView);
 	}
 }
